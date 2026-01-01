@@ -1,3 +1,4 @@
 # catalogue-management
 OpenAPI Rest APIs: http://localhost:8080/swagger-ui/index.html
 OpenAPI javadoc: http://localhost:8080/v3/api-docs
+H2 Database: http://localhost:8080/h2-console
