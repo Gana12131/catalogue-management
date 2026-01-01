@@ -1,3 +1,22 @@
 spring:
   application:
     name: catalogue-management
+  datasource:
+    url: jdbc:h2:mem:catalogueManagement
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+
+springdoc:
+  api-doc:
+    enabled: true
+  swagger-ui:
+    enabled: true
