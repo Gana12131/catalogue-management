@@ -15,6 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/books")
 @Tag(name="Book API", description = "CRUD operations for managing book")
+//@CrossOrigin(origins = "http://localhost:3000")
 public class BookController {
 
     private final BookService bookService;
